@@ -42,8 +42,10 @@ body {
 }
 
 #logo-page {
-    height: 92px;
-    aspect-ratio: auto 272 / 92;
+    /*height: 92px;
+    aspect-ratio: auto 272 / 92;*/
+    height: 200px;
+    aspect-ratio: auto 533 / 200
 }
 
 
