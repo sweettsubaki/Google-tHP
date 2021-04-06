@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: #3c4043;
+    padding: 0px;
+    margin:0;
+    height: 100%;
+    max-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+#navbar ul {
+    display: flex;
+    background-color: white;
+    flex-direction: row-reverse;
+}
+
+#profil-pic {
+    height: 34px;
+    border-radius: 50%;
+    border: 3px transparent solid;
+}
+
+#profil-pic:hover {
+  border: 3px rgb(236, 236, 236) solid;
+}
+
+#apps {
+    height: 17px;
+}
+
+#logo-page {
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+}
+
+
+
+#navbar li {
+    font-size: 13px;
+    display: flex;
+    background-color:white;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#navbar li:hover{
+    text-decoration: underline;
+}
+
+#searchcontainer {
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-bottom: 30px solid white;
+}
+
+#searchbar {
+    background-color: white;
+    position: relative;
+}
+
+.logo {
+    margin-bottom: 23px;
+}
+
+#search {
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    height : 44px;
+    background-image: url('https://w7.pngwing.com/pngs/306/24/png-transparent-google-search-android-search-box-search-engine-optimization-loupe-technic-symbol-magnifying-glass.png');
+    background-position: left 20px bottom 50%;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    padding-left: 50px;
+    min-width: 360px;
+    width: 43%;
+}
+
+#search:hover{
+    box-shadow: 1px 1px 3px 1px #dcdcdc;
+  }
+  #search:focus-within{
+    box-shadow: 1px 1px 3px 1px #dcdcdc;
+    outline:none;
+  }
+
+.vocal-pic {
+    height: 20px;
+    position: relative;
+    top: 5px;
+    right: 35px;
+}
+
+
+button {
+    margin: 20px 4px;
+    background-color: #f8f9fa;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+button:hover{
+    border: 1px solid #c8c8c8;
+    box-shadow: 1px 1px 3px 1px #ebebeb;
+}
+
+button:focus-within{
+    border: 1px solid #c8c8c8;
+    box-shadow: 1px 1px 3px 1px #ebebeb;
+    outline:none;
+}
+
+#prefooter {
+    background-color: yellowgreen;
+}
+
+
+
+#carbone {
+    background-color: #f2f2f2;
+    /*align-items:center;*/
+    vertical-align:top;
+    padding: 15px;
+}
+
+#feuille {
+    height : 14px;
+    padding-right : 5px;
+}
+
+.langage {
+    padding-left: 40px;
+    font-size: 14px;
+}
+
+.footer {
+    flex-direction: column;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin:0;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0%;
+    color: #70757a;
+}
+
+.footer li {
+
+    background-color:#f2f2f2;
+    padding: 15px 5px 15px 5px;
+    font-size: 14px;
+    margin: 0px 15x ;
+    align-items: center;
+}
+
+.footer li:hover {
+text-decoration: underline;
+}
+
+.footer ul {
+    display: flex;
+    flex-wrap:wrap;
+    border-top: 1px solid #dadce0;
+    background-color:#f2f2f2; 
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding-right: 40px;
+    
+}
+
+
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
